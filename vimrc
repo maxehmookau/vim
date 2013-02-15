@@ -17,8 +17,9 @@ syntax on
 set number
 set rnu
 set t_Co=256
+set background=dark
 
-color codeschool
+color solarized
 set guifont=Inconsolata\ 14
 
 " Clipboard
