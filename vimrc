@@ -3,6 +3,13 @@ call pathogen#infect()
 call pathogen#helptags()
 filetype plugin on
 
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+filetype plugin indent on
+
 " Vim app settings
 set nocompatible
 
@@ -32,3 +39,6 @@ set nowritebackup
 
 " Show guideline for ideal width
 set cc=120
+
+" Vundles
+Bundle 'Valloric/YouCompleteMe'
