@@ -2,7 +2,7 @@
 
 Clone the repository
 
-`git clone git@github.com:samknight/vim.git ~/.vim`
+`git clone git@github.com:maxehmookau/vim.git ~/.vim`
 
 Create symlink to hook into vim settings
 
